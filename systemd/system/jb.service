@@ -1,0 +1,13 @@
+[Unit]
+Description="Jboss_____7_____EAP_____service_______________IN_____________ SYSTEMD"
+
+[Service]
+User=root
+Group=root
+Type=forking
+ExecStart=/opt/jb/jboss-eap-7.2/bin/init.d/jboss-eap-rhel.sh start
+ExecStop=/opt/jb/jboss-eap-7.2/bin/init.d/jboss-eap-rhel.sh stop
+
+[Install]
+WantedBy=multi-user.target
+

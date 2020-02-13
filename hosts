@@ -1,0 +1,9 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+######::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+########## CLUSTER KUBERNETES ############
+172.16.1.124    kubemaster01
+172.16.1.123    kubeworker01
+172.16.1.125    kubeworker02
+172.16.1.126    kubeworker03
+

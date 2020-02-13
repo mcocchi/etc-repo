@@ -1,0 +1,10 @@
+
+#
+# /etc/fstab
+# Created by anaconda on Thu Mar 15 11:46:46 2018
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+UUID=62930863-1f7d-4f39-80d7-17cc91ecb033 /                       xfs     defaults        0 0
+########## DISABLED FOR KUBE UUID=f7f267b1-1350-46ee-a41f-6d06f2a64113 swap                    swap    defaults        0 0
